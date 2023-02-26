@@ -1,0 +1,5 @@
+﻿test = {
+	icon = "artefact_icons_unique_artifact_cheese.dds"
+	#placeholder asset
+	asset = ep1_northern_axe_01_a_portrait_entity
+}

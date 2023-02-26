@@ -154,6 +154,14 @@ historical_artifacts.0023 = {
 
 		#Historical Artifacts
 		# Warcraft
+		# Bite of the Bleeding Hollow
+		if = {
+			limit = {
+				exists = character:10005 # Kilrogg
+				character:10005 = { is_alive = yes }
+			}
+			character:10005 = { ﻿create_artifact_bite_of_the_bleeding_hollow_effect = { OWNER = this } }
+		}
 	}
 }
 
